@@ -1,0 +1,47 @@
+******Planilha Calculadora de Bolo - Macro"******
+
+******Primeiro Passo******
+Conceder ao Excel a permissão para executar macros (apenas apertar habilitar, vai aparecer numa aba em amarelo)
+
+******Senha para edição de células bloqueadas******
+123
+
+******Conteúdo******
+Abas:
+
+1. Cadastro de Vendas:
+	Essa aba conta com um quadro que deve ser preenchido com os dados das últimas vendas.
+	Uma vez preenchida a tabela, apertar no botão "Registrar". Estes dados serão copiados para a aba "6.Registro de Finanças".
+	Se for necessário apagar o quadro pode-se selecionar a área e simplesmente excluir ou apertar no botão "Limpar".
+
+2. Relatório de Finanças
+	Essa aba gera um relatório do mês e ano escolhidos, a serem preenchidos nas células L5 e M5, ao lado da célula em amarelo.
+	Uma vez preenchidas estas células, ao apertar o botão "Atualizar Relatório", serão exibidas as vendas referentes às datas desejadas.
+	Estes dados são obtidos a partir da seleção condicional e posterior cópia dos dados contidos na aba 6.Registro de Finanças, que serão reproduzidos na atual aba selecionada.
+
+3. Produção
+	Essa aba permite o registro da produção e também  exibe os custos de produção além de informação sobre o número de bolos mínimo a ser vendido naquela batelada e os 		lucros para cada unidade vendida.
+	Preencher as células de entrada, na Coluna B, do lado das células amarelas. 
+	Ao apertar o botão "Registrar", os dados referentes aos custos serão copiados para a aba "6. Registro Finanças" e os dados referentes à produção serão copiados e 	colados na aba "7.Registro Produção".
+	Apertando o botão "Limpar", as entradas serão apagadas.
+
+4. Ingredientes
+	Esta aba permite a entrada de ingredientes, seus preços e suas quantidades. É uma aba de apoio. Ela servirá de base para o cálculo dos custos.
+	Preste muita atenção com os nomes dados aos ingredientes. Eles devem ser idênticos aos da aba "5.Receitas".	
+
+5. Receitas
+	Aqui são colocadas as quantidades necessárias para se fazer uma receita completa de cada variedade.
+	Esta aba se utiliza dos dados da aba "4.Ingredientes" para fazer o cálculo do custo de produção para cada receita.
+	Deve-se preencher as células em amarelo claro com as quantidades (em g ou ml, quando necessário) dos produtos utilizados.
+	Atenção ao fato de que os preços dos ingredientes são calculados a partir de comparações feitas entre o nomes na presente aba com os na aba "4.Ingredientes". Portanto, 	devem estar indênticos nas duas abas. (Por exemplo, escrever "Açucar" na lista de ingredientes da aba 4 fará com que a aba 5 funcione com problemas, uma vez que a 	grafia deste mesmo ingrediente aqui é "Açúcar")
+
+6. Registro Finanças
+	Aqui é armazenado o histórico de vendas e dos custos de produção. Serve de banco de dados para a elaboração dos relatórios da aba 2
+	Pode ser utilizada para simples consulta.
+	Caso necessário corrigir algum item, é possível editá-lo aqui mesmo. Mas cuidado para manter o padrão (escrever somente números em lugares que tinham números e textos 	onde existiam textos).
+	
+7. Registro Produção
+	Aqui são armazenadas as informações registradas na aba 3. Serve apenas de registro.
+	Pode ser editada para corrigir erros.
+	
+
